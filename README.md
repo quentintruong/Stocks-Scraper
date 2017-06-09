@@ -3,6 +3,13 @@
 ## Challenge Statement:
 1. List top 10 stocks, priced between $100 and $200 and with the highest value variation in the last 30 days. Additional bonus points for predicting which stock is likely to vary the most during the next trading day.
 
+## Program Clarifications
+I chose the DOW as my set of stocks. 
+
+I assumed 30 days to be 23 trading days. 
+
+Program works as of 9 June 2017, xpaths and links of my chosen websites may change, so check that before use.
+
 ## Requires: 
 
 python3.5

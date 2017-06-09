@@ -10,6 +10,17 @@ I assumed 30 days to be 23 trading days.
 
 Program works as of 9 June 2017, xpaths and links of my chosen websites may change, so check that before use.
 
+# Approach
+Scrape the 30 stocks of the DOW using a webspider.
+
+Use the scrapy item pipeline to hold items until all websites have been scraped. 
+
+Sort all items according to highest average price variation and return the top as likely to vary the most during the next trading day.
+
+Sort a ranged subset of the items according to highest average price variation and return the top 10.
+
+Add request delay to prevent target website from banning spider and/or not fulfilling request.
+
 ## Requires: 
 
 python3.5

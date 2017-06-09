@@ -5,8 +5,11 @@
 
 ## Requires: 
 
-python3.5 
+python3.5
 
-gensim
+scrapy
 
-a pretrained word2vec model (For example: https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit)
+## To Run:
+1. Clone directory
+2. Run the following command in directory
+```$ scrapy crawl stocks```
